@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Rachel",
+    "designation": "Chief Executive Officer",
+    "dateOfBirth": "1975-05-15",
+    "yearsOfExperience": 22,
+    "reportingManagerId": null,
+    "imagePath": "/uploads/image-1746772846045-656734097.jpg",
+    "id": "c85e5857-b7dc-44f1-8d30-190074058648"
+  },
+  {
+    "name": "Joseph Gonzalez",
+    "designation": "Chief Technology Officer",
+    "dateOfBirth": "1980-09-22",
+    "yearsOfExperience": 18,
+    "reportingManagerId": "c85e5857-b7dc-44f1-8d30-190074058648",
+    "imagePath": "/uploads/image-1746773935174-43633248.jpg",
+    "id": "21651240-7d8f-44b2-bc2f-92bba5cb3a91"
+  },
+  {
+    "name": "Michael Chen",
+    "designation": "Development Manager",
+    "dateOfBirth": "1985-03-14",
+    "yearsOfExperience": 12,
+    "reportingManagerId": "21651240-7d8f-44b2-bc2f-92bba5cb3a91",
+    "imagePath": "/uploads/image-1746774135532-261481245.jpg",
+    "id": "1c7d1867-3022-451c-b78a-328679d6d375"
+  },
+  {
+    "name": "Albert Dera",
+    "designation": "Senior Developer",
+    "dateOfBirth": "1990-11-18",
+    "yearsOfExperience": 8,
+    "reportingManagerId": "1c7d1867-3022-451c-b78a-328679d6d375",
+    "imagePath": "/uploads/image-1746774378030-691829440.jpg",
+    "id": "30844da1-ca6a-4ba7-b33b-680b82471ef4"
+  },
+  {
+    "name": "Praveen",
+    "designation": "Junior Developer",
+    "dateOfBirth": "1996-09-09",
+    "yearsOfExperience": 6,
+    "reportingManagerId": "30844da1-ca6a-4ba7-b33b-680b82471ef4",
+    "imagePath": "/uploads/image-1746854524217-782269128.jpg",
+    "id": "7109acf4-79b9-4635-8e2f-4de87dd42374"
+  },
+  {
+    "name": "George",
+    "designation": "Junior Developer",
+    "dateOfBirth": "1996-09-09",
+    "yearsOfExperience": 6,
+    "reportingManagerId": "30844da1-ca6a-4ba7-b33b-680b82471ef4",
+    "imagePath": "/uploads/image-1746854607190-45735096.jpg",
+    "id": "8dd05713-d1b0-4973-9242-da382b3bc1ce"
+  },
+  {
+    "name": "Ryan",
+    "designation": "Junior Developer",
+    "dateOfBirth": "1996-09-09",
+    "yearsOfExperience": 6,
+    "reportingManagerId": "30844da1-ca6a-4ba7-b33b-680b82471ef4",
+    "imagePath": "/uploads/image-1746857432860-933380118.jpg",
+    "id": "8098b7e6-4eec-4c23-9e41-2b9b33a32f7b"
+  },
+  {
+    "name": "David Malan",
+    "designation": "Senior Developer",
+    "dateOfBirth": "1992-05-01",
+    "yearsOfExperience": 9,
+    "reportingManagerId": "1c7d1867-3022-451c-b78a-328679d6d375",
+    "imagePath": "/uploads/image-1746862407837-3522027.jpg",
+    "id": "b56f6fc4-9fb5-4ed8-a243-2b1db71d7546"
+  }
+]

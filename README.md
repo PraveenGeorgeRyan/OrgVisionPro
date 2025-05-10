@@ -62,14 +62,14 @@ This structure follows TypeScript best practices with proper separation of conce
 ### Prerequisites
 - Node.js (v18+)
 - npm or yarn
-- SQL database (MySQL, PostgreSQL, etc.)
+- No database needed! The application uses a local JSON file for data storage
 
 ### Installation
 
 1. Clone the repository
    ```bash
-   git clone <repository-url>
-   cd organization_tree
+   git clone https://github.com/PraveenGeorgeRyan/OrgVisionPro.git
+   cd OrgVisionPro
    ```
 
 2. Install frontend dependencies
@@ -95,9 +95,13 @@ This structure follows TypeScript best practices with proper separation of conce
 
    Frontend and Backend (concurrently):
    ```bash
-   # From the project root
-   npm run dev          # Start Next.js frontend
-   npm run backend:dev  # In another terminal, start the backend
+   # Terminal 1: Start the Backend
+cd backend
+npm run dev
+
+# Terminal 2: Start the Frontend
+# Open a new terminal window and run:
+npm run dev
    ```
 
    This will start:
@@ -105,24 +109,18 @@ This structure follows TypeScript best practices with proper separation of conce
    - Backend at [http://localhost:5000](http://localhost:5000)
 
 6. The application will be fully functional with sample data and images included
+- Sample employees with their reporting relationships are pre-configured
+- You can immediately see the organization chart and test all features
 
-## Deployment
+## Key Features to Test
 
-### Vercel Deployment (Frontend)
+1. **Organization Chart Visualization**: See the professional flowchart-style chart
+2. **Edit Organization Name**: Click the edit icon next to the organization name
+3. **Download PDF**: Try the PDF export feature with the "Download PDF" button
+4. **Employee Card Design**: Notice the horizontal layout with profile images
+5. **Organization Structure**: Observe the hierarchical relationships with connecting lines
 
-1. Push your repository to GitHub
-2. Connect your repository to Vercel
-3. Configure environment variables in Vercel dashboard:
-   - Add `NEXT_PUBLIC_API_URL` pointing to your production backend
-4. Deploy with default Next.js settings
-
-### Backend Deployment
-
-1. Deploy the backend to a service like Heroku, Render, or Railway
-2. Set up environment variables for your production environment
-3. Configure CORS settings to allow requests from your Vercel domain
-
-### Note for Reviewers
+## Note for Reviewers
 
 - Sample employee images are included in the repository for demonstration purposes
 - In a production environment, user-uploaded files would typically be stored in a proper file storage service like AWS S3

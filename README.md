@@ -93,15 +93,16 @@ This structure follows TypeScript best practices with proper separation of conce
 
 5. Start the development servers
 
-   Frontend and Backend (concurrently):
+   **Terminal 1**: Start the Backend
    ```bash
-   # Terminal 1: Start the Backend
-cd backend
-npm run dev
+   cd backend
+   npm run dev
+   ```
 
-# Terminal 2: Start the Frontend
-# Open a new terminal window and run:
-npm run dev
+   **Terminal 2**: Start the Frontend
+   ```bash
+   # Open a new terminal window and run:
+   npm run dev
    ```
 
    This will start:

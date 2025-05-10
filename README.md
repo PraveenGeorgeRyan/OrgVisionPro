@@ -122,6 +122,16 @@ npm run dev
 
 ## Note for Reviewers
 
+### Data Storage Approach
+- For this demonstration, a JSON file (`backend/data/employees.json`) is used to store employee data
+- This allows for quick setup without database configuration
+- In a production environment, a proper database (MySQL, PostgreSQL, MongoDB) would be implemented for:
+  - Scalability with larger organizations
+  - Concurrent user access
+  - Data integrity and security
+  - Advanced querying capabilities
+
+### File Storage
 - Sample employee images are included in the repository for demonstration purposes
 - In a production environment, user-uploaded files would typically be stored in a proper file storage service like AWS S3
 
